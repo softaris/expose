@@ -14,7 +14,7 @@ return [
     */
     'servers' => [
         'main' => [
-            'host' => 'sharedwithexpose.com',
+            'host' => 'expose.metaklo.xyz',
             'port' => 443,
         ],
     ],
@@ -32,7 +32,7 @@ return [
     | if available.
     |
     */
-    'server_endpoint' => 'https://expose.dev/api/servers',
+    'server_endpoint' => 'https://expose.metaklo.xyz/api/servers',
 
     /*
     |--------------------------------------------------------------------------
@@ -274,7 +274,7 @@ return [
         | request this subdomain for their own connection.
         |
         */
-        'subdomain' => 'expose',
+        'subdomain' => 'admin',
 
         /*
         |--------------------------------------------------------------------------
